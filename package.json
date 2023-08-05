@@ -1,0 +1,22 @@
+{
+  "name": "typescript-boilerplate",
+  "version": "1.0.0",
+  "description": "A basic typescript boilerplate",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "npx ts-node-dev --respawn --transpile-only src/index.ts",
+    "test": "test"
+  },
+  "author": "Luiz Corrêia <luizfscorreia@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.6.1",
+    "ts-node-dev": "^2.0.0",
+    "tsc": "^2.0.4",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "reflect-metadata": "^0.1.13",
+    "tsyringe": "^4.8.0"
+  }
+}
