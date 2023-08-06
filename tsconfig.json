@@ -6,7 +6,9 @@
       "preserveConstEnums": true,
       "sourceMap": true,
       "experimentalDecorators": true,
-      "emitDecoratorMetadata": true
+      "emitDecoratorMetadata": true,
+      "esModuleInterop": true,
+      "resolveJsonModule": true
     },
     "include": ["src/**/*"],
     "exclude": ["**/*.spec.ts"]
